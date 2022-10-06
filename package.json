@@ -1,7 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "book-search-engine",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -10,7 +10,7 @@
     "build": "cd client && npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olivia Guerra",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
@@ -19,5 +19,13 @@
     "apollo-server-express": "^3.10.2",
     "express": "^4.18.1",
     "graphql": "^16.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oguerra9/book-search-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oguerra9/book-search-engine/issues"
+  },
+  "homepage": "https://github.com/oguerra9/book-search-engine#readme"
 }
